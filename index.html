@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speisekarte</title>
+    <style>
+        body {
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-image: url("BG.jpg");
+            background-repeat: repeat; /* Repeats the image */
+            background-position: top left; /* Aligns the starting point to the top-left */
+            background-attachment: fixed;
+            background-size: 500px 500px;
+        }   
+
+        h1 {
+            text-align: center;
+        }
+
+        .item {
+            margin-bottom: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th {
+            text-align: left;
+            padding-bottom: 10px;
+            font-size: 1.2em;
+            color: white;
+        }
+
+        td {
+            padding: 10px 0;
+            color: white;   
+        }
+
+        /* Set a fixed width for the first column */
+        td:first-child {
+            width: 70%;
+            padding-right: 20px;
+        }
+
+        /* Align prices to the right */
+        td:last-child {
+            text-align: right;
+            width: 30%;
+        }
+
+        #title {
+            top: 0;
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div id = "title">
+        <h1>Speisekarte Maturaball</h1>
+
+    </div>
+
+    <section class="item">
+        <table>
+            <tr>
+                <th>Vorspeisen</th>
+            </tr>
+            <tr>
+                <td>Carpaccio vom Rind mit Rucola & Parmesan, garniert</td>
+                <td>9,20€</td>
+            </tr>
+            <tr>
+                <td>Tomaten und Mozzarella, mariniert mit Pesto dazu Ciabatta</td>
+                <td>6,50€</td>
+            </tr>
+            <tr>
+                <td>Honigmelone mit Rohschinken</td>
+                <td>5,90€</td>
+            </tr>
+        </table>
+    </section>
+
+    <section class="item">
+        <table>
+            <tr>
+                <th>Hauptspeisen</th>
+            </tr>
+            <tr>
+                <td>Ragout vom Schweinefilet "a la Stroganoff" mit Champignons & Essiggurken in Cognacrahm dazu Butterspätzle</td>
+                <td>19,50€</td>
+            </tr>
+            <tr>
+                <td>Schnitzel vom Schwein mit Kartoffelsalat</td>
+                <td>15,90€</td>
+            </tr>
+            <tr>
+                <td>Gemüselasagne mit Tomatensauce</td>
+                <td>15,90€</td>
+            </tr>
+        </table>
+    </section>
+
+    <section class="item">
+        <table>
+            <tr>
+                <th>Dessert</th>
+            </tr>
+            <tr>
+                <td>Panna Cotta mit Blaubeerenragout</td>
+                <td>5,20€</td>
+            </tr>
+            <tr>
+                <td>Helles und Dunkles Schokomousse auf glasierten Sauerkirschen</td>
+                <td>5,90€</td>
+            </tr>
+            <tr>
+                <td>Tiramisu</td>
+                <td>6,70€</td>
+            </tr>
+        </table>
+    </section>
+</body>
+</html>
